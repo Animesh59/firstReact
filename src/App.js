@@ -1,7 +1,7 @@
 import React from "react";
 import {
   BrowserRouter as Router,
-  Routes,
+  Switch,
   Route
 } from "react-router-dom";
 import './App.css';
@@ -16,11 +16,19 @@ function App() {
       <div className="container">
         <Router>
           <Navbar />
-          <Routes>
-            <Route path='/' element={<> <Home /> </>} exact />
-            <Route path='/about' element={<> <About /> </>} exact />
-            <Route path='/services' element={<> <TextField /> </>} exact />
-          </Routes>
+          <Switch>
+            <Route path='/about'>
+              {console.log('about page is here')}
+              <About />
+            </Route>
+            <Route path='/services'>
+              <TextField />
+            </Route>
+            <Route path='/'>
+              {console.log('home page is here')}
+              <Home />
+            </Route>
+          </Switch>
         </Router >
       </div>
     </>
