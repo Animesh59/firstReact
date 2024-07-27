@@ -1,5 +1,5 @@
 import React from "react";
-import axiosClient from "./axiosClient";
+// import axiosClient from "./axiosClient";
 export default function About() {
     // axiosClient.get('/data')
     //     .then(res => console.log(res.data))
