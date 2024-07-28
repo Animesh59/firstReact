@@ -6,7 +6,7 @@ export default function About() {
     return (
         <>
             <h1>Our journey & purpose</h1>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+            <p>Firesaftyfast.store was born from a simple desire – to empower our community with the tools they need for fire safety. We began as a local fire extinguisher shop, and through the years, witnessing the need for wider accessibility to fire safety equipment, we decided to expand our reach. Firesaftyfast.store is our way of bringing our expertise and high-quality fire extinguisher products online, directly to your doorstep. We believe that fire safety shouldn't be a privilege, it's a necessity, and that's why we're here – to make fire preparedness fast, easy, and accessible for everyone.</p>
         </>
     )
 }
