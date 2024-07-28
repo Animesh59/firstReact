@@ -59,7 +59,7 @@ function App() {
       <body data-bs-theme={mode}>
         <Router>
           <Navbar mode={mode} textcolor={textcolor} toggleMode={toggleMode} msg={msg} />
-          <div className="container">
+          <div className="container d-flex align-items-center justify-content-center flex-column" style={{ height: "80vh" }}>
             <Switch>
               <Route exact path='/'>
                 {console.log('root page')}

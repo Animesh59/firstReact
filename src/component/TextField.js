@@ -36,11 +36,13 @@ export default function TextField() {
     //     console.log('Hello I am React');
     return (
         <>
-            <div className="mt-5">
-                <textarea value={text} placeholder="Enter your text here" onChange={handleUserInput} className="form-control mt-10" id="exampleFormControlTextarea1" rows="08"></textarea>
+            <div className="mt-5 w-100">
+                <textarea value={text} placeholder="Enter your text here" onChange={handleUserInput} className="form-control mt-10 " id="exampleFormControlTextarea1" rows="08"></textarea>
             </div>
-            <button type="button" onClick={handleUpper} className="btn btn-primary mt-3 mb-3">upper</button>
-            <button type="button" onClick={handleLower} className="btn btn-primary mt-3 mb-3 ms-3">lower</button>
+            <span>
+                <button type="button" onClick={handleUpper} className="btn btn-primary mt-3 mb-3">upper</button>
+                <button type="button" onClick={handleLower} className="btn btn-primary mt-3 mb-3 ms-3">lower</button>
+            </span>
         </>
     )
     // }, 5000);
